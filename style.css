@@ -1,0 +1,57 @@
+body{
+    background: white;
+    text-align: center;
+    font-family: Georgia;
+
+}
+#column{
+    display: flex;
+    flex-direction: column;
+}
+h1 {
+    color: black;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    color: blueviolet;
+}
+h3 {
+    text-align: center;
+    color: black;
+}
+button{text-align: center;
+    box-shadow: -3px 2px 2px black;
+}
+#generateHaiku{
+    background: mediumpurple;
+    color: white;
+}
+input{
+    align-self: center;
+    height: 4vh;
+    width: 50%;
+    font-size: 3vh;
+}
+#wrapper{
+    margin: 0 auto;
+    display: inline-block;
+    width: 80%;
+    background: ghostwhite;
+    padding: 2%;
+    border-radius: 10px;
+    box-shadow: -10px 5px 5px gray;
+
+}
+
+@media (min-width:600px){
+    #wrapper{
+        width:70%;
+        height: 80%;
+    }
+}
+@media (min-width:1024px){
+    #wrapper{
+        width:30%;
+    }
+}
